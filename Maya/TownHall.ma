@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: TownHall.ma
-//Last modified: Tue, Apr 17, 2018 04:18:34 PM
+//Last modified: Tue, Apr 17, 2018 04:24:11 PM
 //Codeset: 1252
 requires maya "2018";
 requires -nodeType "type" -nodeType "shellDeformer" -nodeType "vectorAdjust" -nodeType "typeExtrude"
@@ -18,13 +18,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "91CC418C-4B39-50C2-E574-C5A8480CBC4F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 31.944724641967476 22.472397115033413 13.176470967975773 ;
-	setAttr ".r" -type "double3" -2.7383527152578209 -2434.6000000001118 2.478645059770596e-15 ;
+	setAttr ".t" -type "double3" 61.451272214296907 36.169386408073422 -13.599593304890879 ;
+	setAttr ".r" -type "double3" -11.738352715203881 -2427.400000000026 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "AB082A63-427D-FE9B-1A6F-90AA222CD86C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 43.43959257953027;
+	setAttr ".coi" 72.784304098573116;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
