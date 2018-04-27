@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: CardTable.ma
-//Last modified: Thu, Apr 26, 2018 03:45:49 PM
+//Last modified: Fri, Apr 27, 2018 10:11:10 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "89F68D73-4C0E-9166-341E-E0AE9DA63E44";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.4226028709665712 5.4188080509044987 1.4623431197718648 ;
+	setAttr ".t" -type "double3" -2.9202284360034305 5.6364137438632751 1.1928777491511378 ;
 	setAttr ".r" -type "double3" -8.1383527287067565 -2980.1999999994055 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "8215A31E-4A7E-5079-3899-DC8782ADDA34";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 1.1151773940736942;
+	setAttr ".coi" 2.6523326096013302;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
